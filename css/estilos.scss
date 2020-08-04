@@ -1,0 +1,16 @@
+body {
+    padding-top: 56px;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+
+
+@import '_navbar.scss';
+@import  '_footer.scss';
+@import  '_index.scss';
+@import '_acercaDe.scss';
+@import '_productos.scss';
+@import '_catalogo.scss';
+@import '_albergue.scss';
+@import '_alfareritos.scss';
+@import '_responsive.scss';

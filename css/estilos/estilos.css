@@ -1,0 +1,327 @@
+body {
+    padding-top: 56px;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+.gc-menu {
+    background: #E7CDB4;
+}
+.contenedor {
+  /*  height: 400px;    */      
+    background: #ccc;
+    
+}
+
+.mujeres-alfareras{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: x-large;
+    align-self: center;
+    margin-right: 10%;
+    color: #fff;
+    
+}
+
+
+
+.contenedor img {
+    width: 100%;
+    /* height: 400px; */
+   
+}
+
+.card-principal {
+    border: none;
+}
+
+.card-principal img {
+    width: 60%;
+    border-radius: 50%;
+    align-self: center;
+}
+
+footer .redes-sociales {
+    background-color: #1e2b38;
+    padding: 20px 0;
+}
+
+footer .redes-sociales .contenedor-redes {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    width: 100%;
+   
+    /* position: absolute; */
+    bottom: 0;
+    left: 0;
+}
+
+footer .redes-sociales .contenedor-redes a {
+    color: #fff;
+    text-align: center;
+    width: 100px;
+    display: block;
+    padding: 15px 0;
+    border-radius: 3px;
+    font-size: 30px;
+    margin: 0 20px;
+}
+
+.correo-img {
+    text-align: center;
+}
+
+footer .redes-sociales .twitter:hover {background: #1da1f2;}
+
+footer .redes-sociales .facebook:hover {background: #3b5998;}
+
+footer .redes-sociales .instagram:hover {background: #5851db;}
+
+footer .redes-sociales .whats:hover {background: #25d366;}
+
+footer .redes-sociales .youtube:hover {background: #ff0000;}
+
+footer .redes-sociales .mail:hover {background-color: #410093;}
+
+
+
+
+
+.carT {
+    font-size: 40px;
+}
+
+.carT1 {
+    font-size: 25px;
+}
+
+
+.img-carousel-2{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.pie-noticia {
+    padding: 0 5%;
+    text-align: end;
+    align-self: flex-end;
+}
+
+.hashtag {
+    color: #1da1f2;
+}
+
+.credito-foto {
+    font: 700;
+}
+
+/*PRODUCTOS*/
+.bg-productos{
+    background:#7D5D5D ;
+}
+
+.contenedor-compra {
+    width: 100%;
+    height: 80%;
+}
+
+.contenedor-compra img {
+    width: 100%;
+    height: 80%;
+}
+
+.bg-blanco {
+    background-color: #fff;
+}
+
+.gc-bg {
+    background-color:#7D5D5D;
+}
+
+.contenedor-pasos{
+    background: #F3F0F0;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.comoComprar {
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+.paso {
+    margin-bottom: 20px;
+}
+
+/*ACERCA DE*/
+
+.logo {
+    width: 70%;
+}
+
+.bg-notas {
+    background: #F3F0F0;
+}
+
+
+
+.parrafo-acerca {
+    text-align: justify;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-top: 30px;
+
+}
+
+.img-nota {
+    width: 50%;
+    align-self: center;
+}
+
+.imagen-nota1 {
+    width: 90%;
+}
+
+.imagen-nota2 {
+    width: 90%;
+    padding: 0 10%;
+}
+.tweet {
+    text-align: center;
+}
+
+/*ALBERGUE*/
+
+.mosaico {
+    width: 100%;
+}
+.pd-texto {
+    padding: 20px 40px;
+}
+
+.video-fb2 {
+    width: auto;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    background: #fff;
+}
+
+/*Alfareritos*/
+.gc-menu-alfareritos {
+    background: #b3dced;
+}
+
+
+
+.fb-alfareritos {
+    width: 100%;
+}
+
+
+/*Tazas*/
+.img-modal-productos{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+
+
+
+
+@media screen and (max-width: 500px ) {
+    
+    footer .redes-sociales .contenedor-redes {
+        flex-wrap: wrap;
+        padding: 20px 0;
+    }
+
+    .carT {
+        font-size: 15px;
+    }
+
+    .carT1 {
+        font-size: 10;
+    }
+
+    footer .redes-sociales .contenedor-redes a {
+        
+        width: 50px;
+        display: block;
+        padding: 15px 0;
+        border-radius: 3px;
+        font-size: 15px;
+        margin: 0 10px;
+    }
+
+    
+
+}
+
+@media screen and (max-width: 758px ) {
+    
+    .tweet {
+        width: 100%;
+        height: 130%;
+    }
+
+   .img-card-index {
+    width: 40%;
+   }
+
+
+}
+/* 
+@media screen and (max-width: 1158px ) {
+    
+    .tweet {
+        width: 80%;
+        height: 130%;
+        margin-left: 25%;
+    }
+
+    
+} */
+
+@media screen and (max-width: 883px ) {
+    
+    .carT {
+        font-size: 25px;
+    }
+
+    .carT1 {
+        font-size: 20px;
+    }
+
+    
+}
+
+@media screen and (max-width: 986px ) {
+    
+    .video-fb {
+        width: 100%;
+    }
+
+    .tweet {
+        width: 80%;
+        height: 130%;
+        margin-left: auto;
+    }
+    
+    
+}
+
+@media screen and (max-width: 1119px ) {
+    
+    .mujeres-alfareras{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        font-size: large;
+        align-self: center;
+        margin-right: 5%;
+    }
+    
+    
+}

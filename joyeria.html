@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joyeria</title>
+     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body >
+    <!--Menu-->
+    <nav class="navbar navbar-expand-md navbar-light  fixed-top gc-menu">
+        
+        
+        <a href="#" class="navbar-brand">Menu</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Menu de Navegacion">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Inicio</a>
+                </li>          
+                <li class="nav-item">
+                    <a href="acercaDe.html" class="nav-link">Acerca de</a>
+                    <li class="nav-item dropdown">
+                       <a href="productos.html" class="nav-link dropdown-toggle" id="menu-categorias" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                           Productos
+                       </a>
+                       <div class="dropdown-menu" aria-labelledby="menu-categorias">
+                           <a href="productos.html" class="dropdown-item">Como comprar</a>  
+                           <a href="tazas.html" class="dropdown-item">Tazas</a>
+                           <a href="joyeria.html" class="dropdown-item">Joyeria</a>
+                           <a href="artesanias.html" class="dropdown-item">Artesanias</a>
+               
+                       </div>
+                   </li>
+               
+                <li class="nav-item">
+                   <a href="albergue.html" class="nav-link">Albergue</a>
+               </li>
+               <li class="nav-item">
+                <a href="alfareritos.html" class="nav-link">Alfareritos</a>
+                </li>
+               <li class="nav-item">
+                   <a href="#" class="nav-link">Contacto</a>
+               </li>
+            </ul>  
+   </div>
+   <div class="mujeres-alfareras">Mujeres Alfareras de Tlahuac</div>
+</nav>
+
+<main class="container">
+
+    <!--Carousel-->
+<!--     <div class="container gc-bg text-center">
+        <div class="row">
+            <div class="col mt-3">
+
+                <div class="carousel slide" id="principal-carousel" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="principal-carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="principal-carousel" data-slide-to="1"></li>
+                        <li data-target="principal-carousel" data-slide-to="2"></li>
+                    </ol>
+                    
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/012-r.jpg" alt="">
+                        </div>
+                        <div class="carousel-item ">
+                            <img src="img/020-r.jpg" alt="">
+                        </div>
+                        <div class="carousel-item ">
+                            <img src="img/080-r.jpg" alt="">
+                        </div>
+                    </div>
+                    <a href="#principal-carousel" class="carousel-control-prev" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a href="#principal-carousel" class="carousel-control-next" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Siguiente</span>
+                    </a>
+
+                </div>
+
+            </div>
+        </div>
+    </div> -->
+
+
+    <div class="row">
+        <div class="col-12">
+            <div class="py-4 borde-bottom">
+                <h1 class="text-center">Joyeria</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="row py-4">
+
+        <div class="col-12 col-sm-6 col-lg-3 mb-4">
+            <div class="card">
+                <img class="card-img-top " src="img/joyeria/027.jpg" alt="">
+                <div class="card-body">
+                    <h3 class="card-title">Collar de Agata</h3>
+                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                    <!-- <a href="#" class="btn btn-sm btn-primary">Comprar</a> -->
+                    <a href="#" class="btn btn-sm btn-secondary" data-toggle="modal" data-target="#fm-modal">Detalles</a>
+                            <div class="modal fade" id="fm-modal" tabindex="-1" role="dialog" aria-labelledby="fm-modal"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title">Collar de Agata</h5>
+                                            <button class="close" data-dismiss="modal" aria-label="Cerrar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="container-fluid">
+                                                <div class="row">
+                                                    <div class="col-12 ">
+                                                        <img class="img-modal-productos" src="img/joyeria/027.jpg" alt="">
+                                                       
+                                                    </div>
+                                                
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                 </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-3 mb-4">
+            <div class="card">
+                <img class="card-img-top " src="img/joyeria/076.jpg" alt="">
+                <div class="card-body">
+                    <h3 class="card-title">Luna y Estrella </h3>
+                    <p class="card-text">Collar y Aretes Luna y Estrella Cuadrados.</p>
+                    <!-- <a href="#" class="btn btn-sm btn-primary">Comprar</a> -->
+                    <a href="#" class="btn btn-sm btn-secondary" data-toggle="modal" data-target="#fm-modal2">Detalles</a>
+                            <div class="modal fade" id="fm-modal2" tabindex="-1" role="dialog" aria-labelledby="fm-modal"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title">Luna y Estrella </h5>
+                                            <button class="close" data-dismiss="modal" aria-label="Cerrar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="container-fluid">
+                                                <div class="row">
+                                                    <div class="col-12 ">
+                                                        <img class="img-modal-productos" src="img/joyeria/076.jpg" alt="">
+                                                       
+                                                    </div>
+                                                
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                 </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-3 mb-4">
+            <div class="card">
+                <img class="card-img-top " src="img/joyeria/078.jpg" alt="">
+                <div class="card-body">
+                    <h3 class="card-title">Libélula Corazón</h3>
+                    <p class="card-text">Collar y Aretes Libélula Corazón.</p>
+                    <!-- <a href="#" class="btn btn-sm btn-primary">Comprar</a> -->
+                    <a href="#" class="btn btn-sm btn-secondary" data-toggle="modal" data-target="#fm-modal3">Detalles</a>
+                            <div class="modal fade" id="fm-modal3" tabindex="-1" role="dialog" aria-labelledby="fm-modal"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title">Libelula Corazón</h5>
+                                            <button class="close" data-dismiss="modal" aria-label="Cerrar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="container-fluid">
+                                                <div class="row">
+                                                    <div class="col-12 ">
+                                                        <img class="img-modal-productos" src="img/joyeria/078.jpg" alt="">
+                                                       
+                                                    </div>
+                                                
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                 </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-3 mb-4">
+            <div class="card">
+                <img class="card-img-top " src="img/joyeria/080.jpg" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Flor Pensamiento</h4>
+                    <p class="card-text">Collar y Aretes Flor Pensamiento Blanco Ovalado.</p>
+                    <!-- <a href="#" class="btn btn-sm btn-primary">Comprar</a> -->
+                    <a href="#" class="btn btn-sm btn-secondary" data-toggle="modal" data-target="#fm-modal4">Detalles</a>
+                            <div class="modal fade" id="fm-modal4" tabindex="-1" role="dialog" aria-labelledby="fm-modal"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title">Flor Pensamiento</h5>
+                                            <button class="close" data-dismiss="modal" aria-label="Cerrar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="container-fluid">
+                                                <div class="row">
+                                                    <div class="col-12 ">
+                                                        <img class="img-modal-productos" src="img/joyeria/080.jpg" alt="">
+                                                       
+                                                    </div>
+                                                
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                 </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-3 mb-4">
+            <div class="card">
+                <img class="card-img-top " src="img/joyeria/088.jpg" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Gato Estrella</h4>
+                    <p class="card-text">Collar y Aretes Gato Estrella y Luna.</p>
+                    <!-- <a href="#" class="btn btn-sm btn-primary">Comprar</a> -->
+                    <a href="#" class="btn btn-sm btn-secondary" data-toggle="modal" data-target="#fm-modal5">Detalles</a>
+                            <div class="modal fade" id="fm-modal5" tabindex="-1" role="dialog" aria-labelledby="fm-modal"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title">Gato Media Luna</h5>
+                                            <button class="close" data-dismiss="modal" aria-label="Cerrar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="container-fluid">
+                                                <div class="row">
+                                                    <div class="col-12 ">
+                                                        <img class="img-modal-productos" src="img/joyeria/088.jpg" alt="">
+                                                       
+                                                    </div>
+                                                
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                 </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-3 mb-4">
+            <div class="card">
+                <img class="card-img-top " src="img/joyeria/091.jpg" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Gato Media Luna</h4>
+                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                    <!-- <a href="#" class="btn btn-sm btn-primary">Comprar</a> -->
+                    <a href="#" class="btn btn-sm btn-secondary" data-toggle="modal" data-target="#fm-modal6">Detalles</a>
+                            <div class="modal fade" id="fm-modal6" tabindex="-1" role="dialog" aria-labelledby="fm-modal"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title">Gato Media Luna</h5>
+                                            <button class="close" data-dismiss="modal" aria-label="Cerrar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="container-fluid">
+                                                <div class="row">
+                                                    <div class="col-12 ">
+                                                        <img class="img-modal-productos" src="img/joyeria/091.jpg" alt="">
+                                                       
+                                                    </div>
+                                                
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                 </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-3 mb-4">
+            <div class="card">
+                <img class="card-img-top " src="img/joyeria/097.jpg" alt="">
+                <div class="card-body">
+                    <h3 class="card-title">Caracol Ovalado</h3>
+                    <p class="card-text">Collar y Aretes Caracol Ovalado.</p>
+                    <!-- <a href="#" class="btn btn-sm btn-primary">Comprar</a> -->
+                    <a href="#" class="btn btn-sm btn-secondary" data-toggle="modal" data-target="#fm-modal7">Detalles</a>
+                            <div class="modal fade" id="fm-modal7" tabindex="-1" role="dialog" aria-labelledby="fm-modal"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title">Caracol Ovalado</h5>
+                                            <button class="close" data-dismiss="modal" aria-label="Cerrar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="container-fluid">
+                                                <div class="row">
+                                                    <div class="col-12 ">
+                                                        <img class="img-modal-productos" src="img/joyeria/097.jpg" alt="">
+                                                       
+                                                    </div>
+                                                
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                 </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-3 mb-4">
+            <div class="card">
+                <img class="card-img-top " src="img/joyeria/189.jpg" alt="">
+                <div class="card-body">
+                    <h3 class="card-title">Arete Libélula</h3>
+                    <p class="card-text">Juego de Aretes Libélula.</p><br>
+                    <!-- <a href="#" class="btn btn-sm btn-primary">Comprar</a> -->
+                    <a href="#" class="btn btn-sm btn-secondary" data-toggle="modal" data-target="#fm-modal8">Detalles</a>
+                            <div class="modal fade" id="fm-modal8" tabindex="-1" role="dialog" aria-labelledby="fm-modal"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title">Arete Libélula</h5>
+                                            <button class="close" data-dismiss="modal" aria-label="Cerrar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="container-fluid">
+                                                <div class="row">
+                                                    <div class="col-12 ">
+                                                        <img class="img-modal-productos" src="img/joyeria/189.jpg" alt="">
+                                                       
+                                                    </div>
+                                                
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                 </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-3 mb-4">
+            <div class="card">
+                <img class="card-img-top " src="img/joyeria/192.jpg" alt="">
+                <div class="card-body">
+                    <h3 class="card-title">Dalia Negra</h3>
+                    <p class="card-text">Arete Flor Dalia Negra Redondo.</p>
+                    <!-- <a href="#" class="btn btn-sm btn-primary">Comprar</a> -->
+                    <a href="#" class="btn btn-sm btn-secondary" data-toggle="modal" data-target="#fm-modal10">Detalles</a>
+                            <div class="modal fade" id="fm-modal10" tabindex="-1" role="dialog" aria-labelledby="fm-modal"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title">Dalia Negra</h5>
+                                            <button class="close" data-dismiss="modal" aria-label="Cerrar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="container-fluid">
+                                                <div class="row">
+                                                    <div class="col-12 ">
+                                                        <img class="img-modal-productos" src="img/joyeria/192.jpg" alt="">
+                                                       
+                                                    </div>
+                                                
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                 </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-3 mb-4">
+            <div class="card">
+                <img class="card-img-top " src="img/joyeria/193.jpg" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Arete Luna y Estrella</h4>
+                    <p class="card-text">Arete Luna y Estrella Corazón.</p>
+                    <!-- <a href="#" class="btn btn-sm btn-primary">Comprar</a> -->
+                    <a href="#" class="btn btn-sm btn-secondary" data-toggle="modal" data-target="#fm-modal10">Detalles</a>
+                            <div class="modal fade" id="fm-modal10" tabindex="-1" role="dialog" aria-labelledby="fm-modal"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title">Arete Luna y Estrella</h5>
+                                            <button class="close" data-dismiss="modal" aria-label="Cerrar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="container-fluid">
+                                                <div class="row">
+                                                    <div class="col-12 ">
+                                                        <img class="img-modal-productos" src="img/joyeria/193.jpg" alt="">
+                                                       
+                                                    </div>
+                                                
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                 </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-3 mb-4">
+            <div class="card">
+                <img class="card-img-top " src="img/joyeria/195.jpg" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Arete Flor Dalia Azul</h4>
+                    <p class="card-text">Arete Flor Dalia Azul Corazón.</p>
+                    <!-- <a href="#" class="btn btn-sm btn-primary">Comprar</a> -->
+                    <a href="#" class="btn btn-sm btn-secondary" data-toggle="modal" data-target="#fm-modal11">Detalles</a>
+                            <div class="modal fade" id="fm-modal11" tabindex="-1" role="dialog" aria-labelledby="fm-modal"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title">Arete Flor Dalia Azul</h5>
+                                            <button class="close" data-dismiss="modal" aria-label="Cerrar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="container-fluid">
+                                                <div class="row">
+                                                    <div class="col-12 ">
+                                                        <img class="img-modal-productos" src="img/joyeria/195.jpg" alt="">
+                                                       
+                                                    </div>
+                                                
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                 </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-3 mb-4">
+            <div class="card">
+                <img class="card-img-top " src="img/joyeria/196.jpg" alt="">
+                <div class="card-body">
+                    <h3 class="card-title">Arete Semilla</h3><br>
+                    <p class="card-text">Arete Semilla Corazon.</p>
+                    <!-- <a href="#" class="btn btn-sm btn-primary">Comprar</a> -->
+                    <a href="#" class="btn btn-sm btn-secondary" data-toggle="modal" data-target="#fm-modal12">Detalles</a>
+                            <div class="modal fade" id="fm-modal12" tabindex="-1" role="dialog" aria-labelledby="fm-modal"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title">Arete Semilla</h5>
+                                            <button class="close" data-dismiss="modal" aria-label="Cerrar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="container-fluid">
+                                                <div class="row">
+                                                    <div class="col-12 ">
+                                                        <img class="img-modal-productos" src="img/joyeria/196.jpg" alt="">
+                                                       
+                                                    </div>
+                                                
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                 </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-3 mb-4">
+            <div class="card">
+                <img class="card-img-top " src="img/joyeria/201.jpg" alt="">
+                <div class="card-body">
+                    <h3 class="card-title">Agata Rosa</h3>
+                    <p class="card-text">Collar y aretes de Ágata Rosa Con Dije de Cerámica.</p>
+                    <!-- <a href="#" class="btn btn-sm btn-primary">Comprar</a> -->
+                    <a href="#" class="btn btn-sm btn-secondary" data-toggle="modal" data-target="#fm-modal13">Detalles</a>
+                            <div class="modal fade" id="fm-modal13" tabindex="-1" role="dialog" aria-labelledby="fm-modal"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title">Agata Rosa</h5>
+                                            <button class="close" data-dismiss="modal" aria-label="Cerrar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="container-fluid">
+                                                <div class="row">
+                                                    <div class="col-12 ">
+                                                        <img class="img-modal-productos" src="img/joyeria/201.jpg" alt="">
+                                                       
+                                                    </div>
+                                                
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                 </div>
+            </div>
+        </div>
+
+    
+       
+
+
+    </div>
+
+
+
+
+
+
+</main>
+
+<!--Footer-->
+
+<footer>
+    <section class="redes-sociales">
+      <div class="contenedor-redes">
+         <!--  <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> -->
+          <a href="https://www.facebook.com/MUJERESALFARERASDETLAHUAC/" class="facebook"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+          <a href="https://www.instagram.com/mujeresalfareras/" class="instagram"><i class="fa fa-instagram"></i></a>
+          <a href="https://api.whatsapp.com/send?phone=525535765078&fbclid=IwAR0aKD9DtwLU-cTVeDObjSYrqRrCQICtjTji5q-TIs0BJZhc_e-_R13bdUs" class="whats"><i class="fa fa-whatsapp" ></i></a>
+          <!-- <a href="#" class="youtube"><i class="fa fa-youtube-play"></i></a> -->
+          <a href="mailto:mujeresalfareras_tlahuac@yahoo.com.mx?" class="mail"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+          
+      </div>
+      <div class="correo-img"><img  src="img/correo.png" alt=""> </div>
+  </section>
+  
+</footer>
+
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

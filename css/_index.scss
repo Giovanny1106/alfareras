@@ -1,0 +1,52 @@
+.contenedor {
+    /*  height: 400px;    */      
+      background: #ccc;
+      
+  }
+  
+  .mujeres-alfareras{
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 400;
+      font-size: x-large;
+      align-self: center;
+      margin-right: 10%;
+      color: #fff;
+      
+  }
+  
+  
+  
+  .contenedor img {
+      width: 100%;
+      /* height: 400px; */
+     
+  }
+  
+  .card-principal {
+      border: none;
+  }
+  
+  .card-principal img {
+      width: 60%;
+      border-radius: 50%;
+      align-self: center;
+  }
+
+  .img-carousel-2{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.pie-noticia {
+    padding: 0 5%;
+    text-align: end;
+    align-self: flex-end;
+}
+
+.hashtag {
+    color: #1da1f2;
+}
+
+.credito-foto {
+    font: 700;
+}
