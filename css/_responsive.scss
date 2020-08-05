@@ -38,6 +38,12 @@
     width: 40%;
    }
 
+   .contenedor {
+       margin-top: 30px;
+       
+   }
+
+  
 
 }
 /* 
@@ -77,7 +83,14 @@
         margin-left: auto;
     }
     
+    .imagen-nota1 {
+        width: 70%;
+    }
     
+    .imagen-nota2{
+        width: 100%;
+        padding: 0;
+    }
 }
 
 @media screen and (max-width: 1119px ) {
